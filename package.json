@@ -1,0 +1,29 @@
+{
+  "name": "wave-lambda",
+  "version": "2.0.0",
+  "description": "Wave Serverless API using AWS Lambda",
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node --project ./tsconfig.json -r tsconfig-paths/register tests/index.ts"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.5.17",
+    "mongoose": "^5.7.1",
+    "typedi": "^0.8.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "faker": "^4.1.0",
+    "jest": "^24.9.0",
+    "mongodb-memory-server": "^5.2.3",
+    "ts-jest": "^24.1.0",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.6.3"
+  }
+}
