@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@types/mongoose": "^5.5.17",
-    "mongoose": "^5.7.1",
+    "mongoose": "^5.7.5",
     "typedi": "^0.8.0"
   },
   "devDependencies": {
